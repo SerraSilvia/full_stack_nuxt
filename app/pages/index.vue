@@ -25,7 +25,7 @@
             <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md overflow-hidden">
                <img 
                 class="w-full transform hover:scale-105 transition-transform duration-500" 
-                src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&q=80&w=800" 
+                src="https://i.pinimg.com/originals/ca/65/b5/ca65b5cbf3a925fe82addaca54a3aa4e.jpg" 
                 alt="PC Gaming High End"
               >
             </div>
@@ -67,7 +67,7 @@
     </section>
 
     <section class="bg-primary-600">
-      <div class="mx-auto max-w-2xl py-16 px-4 text-center sm:py-20 sm:px-6 lg:px-8">
+      <div class="mx-auto max-w-7xl py-4 px-4 flex items-center justify-between sm:px-6 lg:px-8">
         <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
           <span class="block">¿Dudas con la compatibilidad?</span>
         </h2>
