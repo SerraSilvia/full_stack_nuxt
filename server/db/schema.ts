@@ -11,13 +11,13 @@ export const users = sqliteTable("users", {
 
 /* Tabla para los tipos de productos */
 export const product_types = sqliteTable("product_types", {
-  id: integer("id").primaryKey(),
+  id: integer("id").primaryKey({ autoIncrement: true }),
   name: text("name").notNull(),
 });
 
 /* Tabla para los productos */
 export const products = sqliteTable("products", {
-  id: integer("id").primaryKey(),
+  id: integer("id").primaryKey({ autoIncrement: true }),
   name: text("name").notNull(),
   type_id: integer("type_id").references(() => product_types.id),
   price: real("price").notNull(),
